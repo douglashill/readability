@@ -14,6 +14,7 @@ This `article` object will contain the following properties:
 
 * `title`: article title
 * `content`: HTML string of processed article content
+* `textContent`: text content of the article (all HTML removed)
 * `length`: length of an article, in characters
 * `excerpt`: article description, or short excerpt from the content
 * `byline`: author metadata
@@ -84,7 +85,7 @@ good sanitizer libraries out there, use them!
 
 ## Contributing
 
-[![Build Status](https://travis-ci.org/mozilla/readability.svg?branch=master)](https://travis-ci.org/mozilla/readability)
+[![Build Status](https://community-tc.services.mozilla.com/api/github/v1/repository/mozilla/readability/master/badge.svg)](https://community-tc.services.mozilla.com/api/github/v1/repository/mozilla/readability/master/latest)
 
 For outstanding issues, see the issue list in this repo, as well as this [bug list](https://bugzilla.mozilla.org/buglist.cgi?component=Reader%20Mode&product=Toolkit&bug_status=__open__&limit=0).
 
